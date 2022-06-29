@@ -4,7 +4,7 @@
 #
 Name     : R-adespatial
 Version  : 0.3.16
-Release  : 5
+Release  : 6
 URL      : https://cran.r-project.org/src/contrib/adespatial_0.3-16.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/adespatial_0.3-16.tar.gz
 Summary  : Multivariate Multiscale Spatial Analysis
