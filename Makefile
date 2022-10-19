@@ -1,5 +1,5 @@
 PKG_NAME := R-adespatial
-URL = https://cran.r-project.org/src/contrib/adespatial_0.3-19.tar.gz
+URL = https://cran.r-project.org/src/contrib/adespatial_0.3-20.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
