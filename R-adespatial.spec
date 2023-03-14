@@ -4,7 +4,7 @@
 #
 Name     : R-adespatial
 Version  : 0.3.21
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/adespatial_0.3-21.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/adespatial_0.3-21.tar.gz
 Summary  : Multivariate Multiscale Spatial Analysis
@@ -26,9 +26,6 @@ BuildRequires : R-sp
 BuildRequires : R-spdep
 BuildRequires : R-vegan
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 Several methods are based on the use of a spatial weighting matrix and its
@@ -52,10 +49,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1678289023
+export SOURCE_DATE_EPOCH=1678810490
 
 %install
-export SOURCE_DATE_EPOCH=1678289023
+export SOURCE_DATE_EPOCH=1678810490
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
