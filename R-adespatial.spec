@@ -7,7 +7,7 @@
 #
 Name     : R-adespatial
 Version  : 0.3.24
-Release  : 21
+Release  : 22
 URL      : https://cran.r-project.org/src/contrib/adespatial_0.3-24.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/adespatial_0.3-24.tar.gz
 Summary  : Multivariate Multiscale Spatial Analysis
